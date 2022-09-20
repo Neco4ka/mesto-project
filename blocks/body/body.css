@@ -1,0 +1,7 @@
+.body {
+  background-color: #000000;
+}
+
+* {
+  box-shadow: 0 0 1px red;
+}

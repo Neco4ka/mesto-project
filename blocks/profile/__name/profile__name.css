@@ -1,0 +1,10 @@
+.profile__name {
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 114%;
+  font-style: normal;
+  max-height: 39px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

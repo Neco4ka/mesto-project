@@ -1,0 +1,10 @@
+.header {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 45px 0 0 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-self: start;
+}

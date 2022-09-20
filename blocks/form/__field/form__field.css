@@ -1,0 +1,12 @@
+.form__field {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  top: 25%;
+  right: 35%;
+}

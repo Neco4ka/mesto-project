@@ -1,0 +1,18 @@
+.button__edit {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #000000;
+  background-image: url("../../../images/Edit Button.png");
+  border: 0;
+  width: 100%;
+  max-width: 24px;
+  height: 24px;
+
+  position: relative;
+  align-self: flex-end;
+}
+
+.button__edit:hover {
+  opacity: 0.6;
+}
