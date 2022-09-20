@@ -1,5 +1,6 @@
 .header {
   max-width: 880px;
+  min-width: 320px;
   margin: 0 auto;
   padding: 45px 0 0 0;
   box-sizing: border-box;
@@ -7,4 +8,12 @@
   flex-direction: column;
   justify-content: left;
   align-self: start;
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    max-width: 320px;
+    padding-top: 28px;
+    margin: 0;
+  }
 }

@@ -8,3 +8,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 320px) {
+  .profile__name {
+    max-width: 189px;
+    width: 100%;
+    font-size: 27px;
+    line-height: 33px;
+  }
+}

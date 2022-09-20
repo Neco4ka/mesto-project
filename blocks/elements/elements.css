@@ -1,5 +1,6 @@
 .elements {
   max-width: 880px;
+  min-width: 320px;
   height: 100%;
 
   margin: 0 auto;
@@ -15,10 +16,20 @@
   row-gap: 20px;
 }
 
+@media screen and (min-width: 620px) and (max-width: 900px) {
+  .elements {
+    min-width: 620px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .elements {
     max-width: 320px;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(6, 1fr);
+    gap: 20px;
   }
 }

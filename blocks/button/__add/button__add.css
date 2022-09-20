@@ -18,3 +18,14 @@
 .button__add:hover {
   opacity: 0.6;
 }
+
+@media screen and (max-width: 320px) {
+  .button__add {
+    max-width: 282px;
+    height: 50px;
+    width: 100%;
+    background-image: url("../../../images/Add Button_2.png");
+    margin: 0;
+    padding: 0;
+  }
+}

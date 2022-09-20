@@ -11,3 +11,14 @@
   flex-wrap: wrap;
   gap: 16px;
 }
+
+@media screen and (max-width: 320px) {
+  .profile__info {
+    max-width: 282px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    gap: 12px;
+  }
+}

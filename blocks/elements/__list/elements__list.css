@@ -4,3 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 320px) {
+  .elements__list {
+    margin: 0 19px;
+  }
+}

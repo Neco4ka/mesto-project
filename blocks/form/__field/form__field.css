@@ -1,12 +1,19 @@
 .form__field {
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
   background-color: #ffffff;
-  position: absolute;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  top: 25%;
-  right: 35%;
+  margin: 0 0 30px 36px;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  border-color: #ffffff;
+
+  max-width: 358px;
+  max-height: 27px;
+  outline: none;
+}
+
+.form__field:last-child {
+  margin-bottom: 0;
 }

@@ -13,3 +13,13 @@
 .header__logo:hover {
   opacity: 0.6;
 }
+
+@media screen and (max-width: 320px) {
+  .header__logo {
+    max-width: 104px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 25px;
+    margin: 0 0 32px 28px;
+  }
+}
