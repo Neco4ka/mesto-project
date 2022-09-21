@@ -17,11 +17,12 @@
   opacity: 0.6;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 733px) {
   .button__edit {
     max-width: 18px;
     width: 100%;
     height: 18px;
     background-size: cover;
+    margin: 0 0 4px 0;
   }
 }

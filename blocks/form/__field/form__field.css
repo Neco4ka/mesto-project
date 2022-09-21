@@ -14,6 +14,9 @@
   outline: none;
 }
 
-.form__field:last-child {
-  margin-bottom: 0;
+@media screen and (max-width: 500px) {
+  .form__field {
+    max-width: 238px;
+    margin: 0 0 30px 22px;
+  }
 }

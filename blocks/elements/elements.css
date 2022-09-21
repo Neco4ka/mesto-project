@@ -12,20 +12,21 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  column-gap: 17px;
-  row-gap: 20px;
+  grid-column-gap: 17px;
+  grid-row-gap: 20px;
 }
 
-@media screen and (min-width: 620px) and (max-width: 900px) {
+@media screen and (max-width: 900px) {
   .elements {
-    min-width: 620px;
+    max-width: 650px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    gap: 20px;
+    grid-column-gap: 17px;
+    grid-row-gap: 20px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 650px) {
   .elements {
     max-width: 320px;
     grid-template-columns: repeat(1, 1fr);

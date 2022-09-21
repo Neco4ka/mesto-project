@@ -9,7 +9,7 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 733px) {
   .profile__name {
     max-width: 189px;
     width: 100%;

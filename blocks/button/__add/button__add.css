@@ -19,13 +19,13 @@
   opacity: 0.6;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 733px) {
   .button__add {
     max-width: 282px;
     height: 50px;
     width: 100%;
     background-image: url("../../../images/Add Button_2.png");
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
   }
 }
