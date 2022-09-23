@@ -8,10 +8,9 @@
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
   <body class="body">
-    <page class="page">
+    <div class="page">
       <header class="header">
         <a href="#" class="header__logo"></a>
-        <hr class="header__line" />
       </header>
       <main>
         <section class="profile">
@@ -19,132 +18,175 @@
           <article class="profile__info">
             <h1 class="profile__name">Жак-Ив Кусто</h1>
 
-            <button type="button" class="button__edit"></button>
+            <button
+              type="button"
+              class="profile__button-edit"
+              aria-label="Редактировать"
+            ></button>
 
             <p class="profile__description">Исследователь океана</p>
           </article>
 
-          <button type="button" class="button__add"></button>
+          <button
+            type="button"
+            class="profile__button-add"
+            aria-label="Добавить"
+          ></button>
         </section>
         <section>
           <ul class="elements">
             <li class="elements__list">
-              <figure class="element">
+              <article class="element">
                 <img
                   class="element__image"
                   src="images/Finland.jpg"
                   alt="Северное сияние в Финляндии"
                 />
-                <figcaption class="element__caption">
-                  Финляндия
-                  <button type="button" class="button__like"></button>
-                </figcaption>
-              </figure>
+                <div class="element__caption">
+                  <h2 class="element__caption-name">Финляндия</h2>
+
+                  <button
+                    type="button"
+                    class="element__caption-button"
+                    aria-label="Понравилось"
+                  ></button>
+                </div>
+              </article>
             </li>
+
             <li class="elements__list">
-              <figure class="element">
+              <article class="element">
                 <img
                   class="element__image"
                   src="images/Germany.jpg"
                   alt="Замок Нойшванштайн, Германия"
                 />
-                <figcaption class="element__caption">
-                  Германия<button type="button" class="button__like"></button>
-                </figcaption>
-              </figure>
+                <div class="element__caption">
+                  <h2 class="element__caption-name">Германия</h2>
+                  <button
+                    type="button"
+                    class="element__caption-button"
+                    aria-label="Понравилось"
+                  ></button>
+                </div>
+              </article>
             </li>
             <li class="elements__list">
-              <figure class="element">
+              <article class="element">
                 <img
                   class="element__image"
                   src="images/Norway.jpg"
                   alt="Лофотенские острова, Норвегия"
                 />
-                <figcaption class="element__caption">
-                  Норвегия<button type="button" class="button__like"></button>
-                </figcaption>
-              </figure>
+                <div class="element__caption">
+                  <h2 class="element__caption-name">Норвегия</h2>
+                  <button
+                    type="button"
+                    class="element__caption-button"
+                    aria-label="Понравилось"
+                  ></button>
+                </div>
+              </article>
             </li>
 
             <li class="elements__list">
-              <figure class="element">
+              <article class="element">
                 <img
                   class="element__image"
                   src="images/Russia.jpg"
                   alt="Хвойные леса Карелии, Россия"
                 />
-                <figcaption class="element__caption">
-                  Россия
-                  <button type="button" class="button__like"></button>
-                </figcaption>
-              </figure>
+                <div class="element__caption">
+                  <h2 class="element__caption-name">Россия</h2>
+                  <button
+                    type="button"
+                    class="element__caption-button"
+                    aria-label="Понравилось"
+                  ></button>
+                </div>
+              </article>
             </li>
 
             <li class="elements__list">
-              <figure class="element">
+              <article class="element">
                 <img
                   class="element__image"
                   src="images/British Columbia.jpg"
                   alt="Туманные леса, Британская Колумбия"
                 />
-                <figcaption class="element__caption">
-                  <span class="element__break">Британская Колумбия</span>
-
-                  <button type="button" class="button__like"></button>
-                </figcaption>
-              </figure>
+                <div class="element__caption">
+                  <h2 class="element__caption-name">Британская Колумбия</h2>
+                  <button
+                    type="button"
+                    class="element__caption-button"
+                    aria-label="Понравилось"
+                  ></button>
+                </div>
+              </article>
             </li>
 
             <li class="elements__list">
-              <figure class="element">
+              <article class="element">
                 <img
                   class="element__image"
                   src="images/Japan.jpg"
                   alt="Гора Фудзи, Япония"
                 />
-                <figcaption class="element__caption">
-                  Япония
-                  <button type="button" class="button__like"></button>
-                </figcaption>
-              </figure>
+                <div class="element__caption">
+                  <h2 class="element__caption-name">Япония</h2>
+
+                  <button
+                    type="button"
+                    class="element__caption-button"
+                    aria-label="Понравилось"
+                  ></button>
+                </div>
+              </article>
             </li>
           </ul>
-        </section>
-
-        <section class="popup popup_opened">
-          <div class="popup__container">
-            <form class="form">
-              <h2 class="form__headering">Редактировать профиль</h2>
-
-              <fieldset class="form__field">
-                <input
-                  class="form__input"
-                  type="text"
-                  id="profile__name"
-                  value="Жак-Ив Кусто"
-                />
-                <hr class="header__line" />
-              </fieldset>
-
-              <fieldset class="form__field">
-                <input
-                  class="form__input"
-                  type="text"
-                  id="profile__description"
-                  value="Исследователь океана"
-                />
-                <hr class="header__line" />
-              </fieldset>
-
-              <button type="button" class="form__button">Сохранить</button>
-            </form>
-            <button type="button" class="button__close"></button>
-          </div>
         </section>
       </main>
       <footer class="footer">
         <p class="footer__text">&copy; 2020 Mesto Russia</p>
       </footer>
-    </page>
+
+      <div class="popup popup_opened">
+        <div class="popup__container">
+          <div class="form">
+            <h2 class="form__headering">Редактировать профиль</h2>
+            <form class="form__main-content" name="profileForm" method="post">
+              <fieldset class="form__field">
+                <input
+                  class="form__input"
+                  type="text"
+                  name="profile__name"
+                  placeholder="Жак-Ив Кусто"
+                />
+
+                <input
+                  class="form__input"
+                  type="text"
+                  name="profile__description"
+                  placeholder="Исследователь океана"
+                />
+              </fieldset>
+
+              <button
+                type="submit"
+                class="form__button-save"
+                aria-label="Сохранить"
+              >
+                Сохранить
+              </button>
+            </form>
+          </div>
+          <button
+            type="button"
+            class="form__button-close"
+            aria-label="Закрыть"
+          ></button>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

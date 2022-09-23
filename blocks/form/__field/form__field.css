@@ -1,22 +1,20 @@
 .form__field {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  background-color: #ffffff;
-  margin: 0 0 30px 36px;
+  margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
   border: 0;
-  border-color: #ffffff;
-
-  max-width: 358px;
-  max-height: 27px;
+  max-width: 430px;
   outline: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  text-decoration: black;
 }
 
 @media screen and (max-width: 500px) {
   .form__field {
-    max-width: 238px;
-    margin: 0 0 30px 22px;
+    max-width: 282px;
   }
 }

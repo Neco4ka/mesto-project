@@ -5,15 +5,16 @@
   line-height: 29px;
 
   max-width: 330px;
-  margin: 34px 0 54px 36px;
+  margin: 34px 0 54px 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 @media screen and (max-width: 500px) {
   .form__headering {
+    max-width: 338px;
     font-size: 18px;
     line-height: 22px;
-    margin: 25px 0 75px 22px;
+    margin: 25px 0 75px 0;
   }
 }

@@ -1,9 +1,9 @@
-.button__edit {
+.profile__button-edit {
   padding: 0;
-  margin: 0;
+  margin: 0 0 6px 0;
   box-sizing: border-box;
   background-color: #000000;
-  background-image: url("../../../images/Edit Button.png");
+  background: url("../../../images/Edit Button.png");
   border: 0;
   width: 100%;
   max-width: 24px;
@@ -11,18 +11,19 @@
 
   position: relative;
   align-self: flex-end;
+
+  cursor: pointer;
 }
 
-.button__edit:hover {
+.profile__button-edit:hover {
   opacity: 0.6;
 }
 
 @media screen and (max-width: 733px) {
-  .button__edit {
+  .profile__button-edit {
     max-width: 18px;
-    width: 100%;
     height: 18px;
     background-size: cover;
-    margin: 0 0 4px 0;
+    margin-bottom: 4px;
   }
 }

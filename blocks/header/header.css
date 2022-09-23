@@ -8,6 +8,7 @@
   flex-direction: column;
   justify-content: left;
   align-self: start;
+  border-bottom: 1px solid rgba(84, 84, 84, 0.7);
 }
 
 @media screen and (max-width: 320px) {
