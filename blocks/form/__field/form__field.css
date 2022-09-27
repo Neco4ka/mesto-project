@@ -5,9 +5,7 @@
   border: 0;
   max-width: 430px;
   outline: none;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
+
   display: flex;
   flex-direction: column;
   text-decoration: black;

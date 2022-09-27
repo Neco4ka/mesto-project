@@ -8,7 +8,7 @@
   margin-right: 0px;
   box-sizing: border-box;
   background-color: #000000;
-  background: url("../../../images/Add Button.png");
+  background: url("../../../images/Add_Button.png");
   border: 0;
   width: 100%;
   cursor: pointer;
@@ -23,7 +23,7 @@
 @media screen and (max-width: 733px) {
   .profile__button-add {
     max-width: 282px;
-    background: url("../../../images/Add Button_2.png");
+    background: url("../../../images/Add_Button_2.png");
     margin-right: auto;
   }
 }

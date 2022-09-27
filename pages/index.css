@@ -21,7 +21,6 @@
 @import url("../blocks/element/__image/element__image.css");
 @import url("../blocks/element/__caption/element__caption.css");
 @import url("../blocks/element/__caption-name/element__caption-name.css");
-@import url("../blocks/element/__break/element__break.css");
 @import url("../blocks/element/__caption-button/element__caption-button.css");
 
 @import url("../blocks/footer/footer.css");
@@ -30,11 +29,11 @@
 @import url("../blocks/popup/popup.css");
 @import url("../blocks/popup/_opened/popup_opened.css");
 @import url("../blocks/popup/__container/popup__container.css");
+@import url("../blocks/popup/__button-close/popup__button-close.css");
 
 @import url("../blocks/form/form.css");
 @import url("../blocks/form/__field/form__field.css");
 @import url("../blocks/form/__headering/form__headering.css");
 @import url("../blocks/form/__input/form__input.css");
-@import url("../blocks/form/__button-close/form__button-close.css");
 @import url("../blocks/form/__button-save/form__button-save.css");
 @import url("../blocks/form/__main-content/form__main-content.css");
